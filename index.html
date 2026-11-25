@@ -68,6 +68,51 @@
             </div>
         </section>
 
+        <section class="area-pedidos">
+
+            <div class="app-container">
+
+                <h2>☕ Nexus Pedidos</h2>
+
+                <p class="contador">
+                    Pedidos na fila: <span id="total-pedidos">0</span>
+                </p>
+
+                <div class="form-pedido">
+
+                    <input
+                        type="text"
+                        id="cliente"
+                        placeholder="Nome do cliente"
+                    >
+
+                    <select id="bebida">
+                        <option value="">Escolha a bebida</option>
+                        <option value="Café coado">Café coado</option>
+                        <option value="Cappuccino">Cappuccino</option>
+                        <option value="Chocolate quente">Chocolate quente</option>
+                    </select>
+
+                    <input
+                        type="text"
+                        id="observacao"
+                        placeholder="Observação (ex.: sem açúcar)"
+                    >
+
+                    <button id="add-pedido">
+                        Adicionar pedido
+                    </button>
+
+                </div>
+
+                <div class="lista-pedidos" id="lista-pedidos">
+                </div>
+
+            </div>
+            <script src="script.js"></script>
+        </section>
+
+
     </main>
 
     <footer>
